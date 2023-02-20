@@ -16,3 +16,24 @@ code {
   font-size: 30px;
   font-weight: 800;
 }
+
+.header_title {
+  color: bisque;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.water_boil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  display: block;
+  max-width: 100px;
+
+  width: auto;
+  height: auto;
+}

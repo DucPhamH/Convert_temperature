@@ -1,9 +1,6 @@
 import React from 'react'
 import './temp.scss'
 export class TemperatorInput extends React.Component {
-  constructor(props) {
-    super(props)
-  }
   handleChange = (event) => {
     this.props.onTempChange(event.target.value)
   }

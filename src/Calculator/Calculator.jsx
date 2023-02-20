@@ -40,6 +40,7 @@ export class Calculator extends React.Component {
     const fahrenheit = scale === 'c' ? tryConvert(temperators, scale) : temperators
     return (
       <div>
+        <div className='header_title'>Convert</div>
         <TemperatorInput title='Celsius' temperators={celsius} onTempChange={this.handleChange('c')} />
         <TemperatorInput title='Fahrenheit' temperators={fahrenheit} onTempChange={this.handleChange('f')} />
         <div>
